@@ -1,0 +1,13 @@
+
+
+@use 'titulos';
+
+section {
+    background-color: titulos.$bg-primario;
+    height:100vh;
+
+    h1 {
+        @include titulos.estilos-h1;
+        color: titulos.$color-texto;
+    }
+}
